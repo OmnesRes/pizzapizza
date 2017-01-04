@@ -364,6 +364,7 @@ combos={}
 for combo in combinations_with_replacement([0,.005,-.005],6):
     for permut in permutations(combo):
         combos[permut]=''
+print len(combos)
 ro.globalenv['n']=ro.r.matrix(np.array([18,18,7,17,19,10]),nrow=3)
 for i in data:
     u=np.array([float(i[0]),float(i[2]),float(i[4]),float(i[6]),float(i[8]),float(i[10])])
