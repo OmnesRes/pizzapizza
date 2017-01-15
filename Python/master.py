@@ -50,7 +50,7 @@ for i in data:
           ' ('+str(round(1-f.cdf(max_test,1,sum(sizes)-2),2))+'-'+str(round(1-f.cdf(min_test,1,sum(sizes)-2),2))+')'
 
 
-raise
+
 
 ##table2
 print
